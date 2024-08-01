@@ -21,7 +21,7 @@ export type User = {
     country: string;
     deliveryPrice: number;
     estimatedDeliveryTime: number;
-    cuisines: string[];
+    treatments: string[];
     menuItems: MenuItem[];
     imageUrl: string;
     lastUpdated: string;

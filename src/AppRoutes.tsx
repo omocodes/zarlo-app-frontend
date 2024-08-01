@@ -2,12 +2,12 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./layouts/layout";
 import HomePage from "./pages/HomePage";
 import AuthCallbackPage from "./pages/AuthCallbackPage";
-// import UserProfilePage from "./pages/UserProfilePage";
-// import ProtectedRoute from "./auth/ProtectedRoute";
-// import ManageStorePage from "./pages/ManageStorePage";
-// import SearchPage from "./pages/SearchPage";
-// import DetailPage from "./pages/DetailPage";
-// import OrderStatusPage from "./pages/OrderStatusPage";
+import UserProfilePage from "./pages/UserProfilePage";
+import ProtectedRoute from "./auth/ProtectedRoute";
+import ManageStorePage from "./pages/ManageStorePage";
+import SearchPage from "./pages/SearchPage";
+import DetailPage from "./pages/DetailPage";
+import OrderStatusPage from "./pages/OrderStatusPage";
 
 const AppRoutes = () => {
   return (
@@ -21,7 +21,7 @@ const AppRoutes = () => {
         }
       />
       <Route path="/auth-callback" element={<AuthCallbackPage />} />
-      {/* <Route
+      <Route
         path="/search/:city"
         element={
           <Layout showHero={false}>
@@ -62,7 +62,7 @@ const AppRoutes = () => {
             </Layout>
           }
         />
-      </Route> */}
+      </Route>
 
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
