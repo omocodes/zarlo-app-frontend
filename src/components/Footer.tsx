@@ -21,7 +21,6 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center gap-4">
           <span className="text-white font-bold tracking-tight flex gap-4">
             <span className="hover:text-black cursor-pointer">Help center</span>
-            <span className="hover:text-black cursor-pointer">Terms and conditions</span>
             <span className="hover:text-black cursor-pointer">About</span>
             <span className="hover:text-black cursor-pointer">FAQs</span>
           </span>
