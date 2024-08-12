@@ -20,7 +20,7 @@ const formSchema = z.object({
   email: z.string().optional(),
   name: z.string().min(1, "name is required"),
   addressLine1: z.string().min(1, "Address Line 1 is required"),
-  city: z.string().min(1, "City is required"),
+  suburb: z.string().min(1, "Suburb is required"),
   country: z.string().min(1, "Country is required"),
 });
 
@@ -105,10 +105,10 @@ const UserProfileForm = ({
           />
           <FormField
             control={form.control}
-            name="city"
+            name="suburb"
             render={({ field }) => (
               <FormItem className="flex-1">
-                <FormLabel>City</FormLabel>
+                <FormLabel>Suburb</FormLabel>
                 <FormControl>
                   <Input {...field} className="bg-white" />
                 </FormControl>

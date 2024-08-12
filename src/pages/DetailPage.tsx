@@ -94,7 +94,7 @@ const DetailPage = () => {
       deliveryDetails: {
         name: userFormData.name,
         addressLine1: userFormData.addressLine1,
-        city: userFormData.city,
+        suburb: userFormData.suburb,
         country: userFormData.country,
         email: userFormData.email as string,
       },

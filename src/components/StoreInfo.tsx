@@ -20,7 +20,7 @@ const StoreInfo = ({ store }: Props) => {
           {store.storeName}
         </CardTitle>
         <CardDescription>
-          {store.city}, {store.country}
+          {store.suburb}, {store.country}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex">

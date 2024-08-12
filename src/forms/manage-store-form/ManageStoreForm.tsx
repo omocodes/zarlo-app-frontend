@@ -17,8 +17,8 @@ const formSchema = z
     storeName: z.string({
       required_error: "store name is required",
     }),
-    city: z.string({
-      required_error: "city is required",
+    suburb: z.string({
+      required_error: "suburb is required",
     }),
     country: z.string({
       required_error: "country is required",
@@ -93,7 +93,7 @@ const ManageStoreForm = ({ onSave, isLoading, store }: Props) => {
     const formData = new FormData();
 
     formData.append("storeName", formDataJson.storeName);
-    formData.append("city", formDataJson.city);
+    formData.append("suburb", formDataJson.suburb);
     formData.append("country", formDataJson.country);
 
     formData.append(

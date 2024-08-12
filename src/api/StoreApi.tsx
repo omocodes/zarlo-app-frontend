@@ -30,7 +30,7 @@ export const useGetStore = (storeId?: string) => {
 
 export const useSearchStores = (
   searchState: SearchState,
-  city?: string
+  suburb?: string
 ) => {
   const createSearchRequest = async (): Promise<StoreSearchResponse> => {
     const params = new URLSearchParams();
@@ -40,7 +40,7 @@ export const useSearchStores = (
     params.set("sortOption", searchState.sortOption);
 
     const response = await fetch(
-      `${API_BASE_URL}/api/store/search/${city}?${params.toString()}`
+      `${API_BASE_URL}/api/store/search/${suburb}?${params.toString()}`
     );
 
     if (!response.ok) {
@@ -53,7 +53,7 @@ export const useSearchStores = (
   const { data: results, isLoading } = useQuery(
     ["searchStores", searchState],
     createSearchRequest,
-    { enabled: !!city }
+    { enabled: !!suburb }
   );
 
   return {

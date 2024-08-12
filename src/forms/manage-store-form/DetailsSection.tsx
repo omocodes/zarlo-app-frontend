@@ -35,10 +35,10 @@ import {
         <div className="flex gap-4">
           <FormField
             control={control}
-            name="city"
+            name="suburb"
             render={({ field }) => (
               <FormItem className="flex-1">
-                <FormLabel>City</FormLabel>
+                <FormLabel>Suburb</FormLabel>
                 <FormControl>
                   <Input {...field} className="bg-white" />
                 </FormControl>
