@@ -1,13 +1,40 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" aria-label="ZARLO App">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZARLO - Your Personal Barber and Beauty Service</title>
+    <meta name="description" content="ZARLO brings beauty services right to your doorstep with ease. Book your next grooming appointment today!" />
+    <meta name="keywords" content="ZARLO, beauty, grooming, doorstep, services, barber, stylist" />
+    <meta name="author" content="ZARLO Technologies" />
+    
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ZARLO – Bringing Beauty to Your Doorstep with Ease" />
+    <meta property="og:description" content="ZARLO brings beauty services right to your doorstep with ease. Book your next grooming appointment today!" />
+    <meta property="og:image" content="/images/og-image.png" />
+    <meta property="og:url" content="http://www.zarloapp.com/" />
+    <meta property="og:site_name" content="ZARLO" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZARLO – Bringing Beauty to Your Doorstep with Ease" />
+    <meta name="twitter:description" content="ZARLO brings beauty services right to your doorstep with ease. Book your next grooming appointment today!" />
+    <meta name="twitter:image" content="/images/twitter-image.png" />
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#B27409" />
+    <title>ZARLO – Bringing Beauty to Your Doorstep with Ease</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx" async onerror="handleError(event)"></script>
+    <script>
+      function handleError(event) {
+        console.error('Script failed to load:', event.target.src);
+      }
+    </script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-import { FaInstagram, FaYoutube, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaTwitter, FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -8,14 +8,17 @@ const Footer = () => {
           <a href="https://www.instagram.com/zarlo_sa" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
             <FaInstagram size={21} />
           </a>
-          <a href="https://www.youtube.com/@zarlo_sa" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
-            <FaYoutube size={21} />
+          <a href="https://www.linkedin.com/company/zarlo-technologies" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
+            <FaLinkedinIn size={21} />
           </a>
           <a href="https://x.com/zarlo_sa" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
             <FaTwitter size={21} />
           </a>
-          <a href="https://www.linkedin.com/company/zarlo-technologies" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
-            <FaLinkedinIn size={21} />
+          <a href="https://www.youtube.com/@zarlo_sa" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
+            <FaYoutube size={21} />
+          </a>
+          <a href="https://www.facebook.com/people/Zarlo/61564831103325/?mibextid=ZbWKwl" target="_blank" rel="noopener noreferrer" className="text-white hover:text-black">
+            <FaFacebookF size={20} />
           </a>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-4">
