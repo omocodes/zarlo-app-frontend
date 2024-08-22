@@ -45,7 +45,7 @@ type CheckoutSessionRequest = {
     email: string;
     name: string;
     addressLine1: string;
-    suburb: string;
+    city: string;
   };
   storeId: string;
 };

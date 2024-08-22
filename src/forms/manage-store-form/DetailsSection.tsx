@@ -35,7 +35,7 @@ const DetailsSection = () => {
       <div className="flex gap-4">
         <FormField
           control={control}
-          name="suburb"
+          name="city"
           render={({ field }) => (
             <FormItem className="flex-1">
               <FormLabel>Suburb</FormLabel>
