@@ -3,6 +3,8 @@ import partnerImage from "../assets/Collab-pana.png";
 import rideImage from "../assets/Take Away-pana.png";
 import workImage from "../assets/Beauty salon-rafiki.png";
 import giftCardImage from "../assets/Gift card-pana.png";
+import sandTechImage from "../assets/sand-tech.jpg";
+import resLocatorImage from "../assets/reslocator.png";
 import SearchBar, { SearchForm } from "@/components/SearchBar";
 import { useNavigate } from "react-router-dom";
 
@@ -117,6 +119,26 @@ const HomePage = () => {
             >
               Get started
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-md p-8 text-center">
+        <h2 className="text-3xl font-bold mb-6" style={{ color: '#d2a323' }}>Our Partners & Stakeholders</h2>
+        <p className="text-lg mb-8">Collaborate with us to leverage our ecosystem for enhanced value and growth.</p>
+        <div className="flex flex-wrap justify-center gap-4"> {/* Adjusted gap for smaller screens */}
+          <div className="flex justify-center items-center w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 lg:w-52 lg:h-52 xl:w-56 xl:h-56">
+            <img 
+              src={sandTechImage} 
+              alt="Sand Technologies" 
+              className="w-full h-full object-contain"
+            />
+          </div>
+          <div className="flex justify-center items-center w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 lg:w-52 lg:h-52 xl:w-56 xl:h-56">
+            <img 
+              src={resLocatorImage} 
+              alt="ResLocator" 
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </div>
