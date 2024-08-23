@@ -33,7 +33,7 @@ const MobileNav = () => {
               onClick={() => loginWithRedirect()}
               className="flex-1 font-bold bg-yellow-500"
             >
-              Login
+              Login / Signup
             </Button>
           )}
         </SheetDescription>
