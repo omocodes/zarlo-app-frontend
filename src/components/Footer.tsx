@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center gap-4">
           <span className="text-white font-bold tracking-tight flex gap-4">
             <a
-              href="https://wa.me/27663394019"
+              href="https://wa.me/27827952060"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black cursor-pointer"
