@@ -9,49 +9,49 @@ const Footer = () => {
         
         {/* Quick Links */}
         <div className="flex flex-col">
-          <h4 className="font-bold mb-4">Quick Links</h4>
-          <a href="#how-it-works" className="hover:text-black mb-2">How It Works</a>
-          <a href="#trust-safety" className="hover:text-black mb-2">Trust, Safety & Insurance</a>
-          <a href="#privacy" className="hover:text-black mb-2">Privacy Policy</a>
-          <a href="#about" className="hover:text-black mb-2">About Us</a>
+          <h4 className="font-bold mb-4 text-black text-lg">Quick Links</h4>
+          <a href="#how-it-works" className="text-sm hover:text-black mb-2">How It Works</a>
+          <a href="#trust-safety" className="text-sm hover:text-black mb-2">Trust, Safety & Insurance</a>
+          <a href="#privacy" className="text-sm hover:text-black mb-2">Privacy Policy</a>
+          <a href="#about" className="text-sm hover:text-black mb-2">About Us</a>
         </div>
 
         {/* Register */}
         <div className="flex flex-col">
-          <h4 className="font-bold mb-4">Register</h4>
-          <a href="#register-user" className="hover:text-black mb-2">Register as a User</a>
-          <a href="#register-service" className="hover:text-black mb-2">Register as a Service Provider</a>
+          <h4 className="font-bold mb-4 text-black text-lg">Register</h4>
+          <a href="#register-user" className="text-sm hover:text-black mb-2">Register as a Customer</a>
+          <a href="#register-service" className="text-sm hover:text-black mb-2">Register as a Beauty Professional</a>
         </div>
 
         {/* Help */}
         <div className="flex flex-col">
-          <h4 className="font-bold mb-4">Support</h4>
-          <a href="https://wa.me/27827952060" target="_blank" rel="noopener noreferrer" className="hover:text-black mb-2">Help Center</a>
-          <a href="#faq" className="hover:text-black mb-2">FAQ</a>
-          <a href="mailto:info@zarloapp.com" className="hover:text-black mb-2">Contact Us</a>
-          <p className="mb-2">+27 82 795 2060</p>
-          <p className="mb-2">info@zarloapp.com</p>
-          <p className="mb-2">19 Ameshoff St, Braamfontein, Johannesburg, South Africa, 2017</p>
+          <h4 className="font-bold mb-4 text-black text-lg">Support</h4>
+          <a href="https://wa.me/27827952060" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-black mb-2">Help Center</a>
+          <a href="#faq" className="text-sm hover:text-black mb-2">FAQ</a>
+          <a href="mailto:info@zarloapp.com" className="text-sm hover:text-black mb-2">Contact Us</a>
+          <p className="text-sm mb-2">+27 82 795 2060</p>
+          <p className="text-sm mb-2">info@zarloapp.com</p>
+          <p className="text-sm mb-2">19 Ameshoff St, Braamfontein, Johannesburg, South Africa, 2001</p>
         </div>
         
         {/* Be Social */}
         <div className="flex flex-col items-center">
-          <h4 className="font-bold mb-4">Socials</h4>
+          <h4 className="font-bold mb-4 text-black text-lg">Socials</h4>
           <div className="flex gap-4 mb-4">
             <a href="https://www.instagram.com/zarlo_sa" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white hover:text-black transition-colors duration-300">
-              <FaInstagram size={21} />
+              <FaInstagram size={29} /> 
             </a>
             <a href="https://www.linkedin.com/company/zarlo-technologies" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-white hover:text-black transition-colors duration-300">
-              <FaLinkedinIn size={21} />
+              <FaLinkedinIn size={29} /> 
             </a>
             <a href="https://x.com/zarlo_sa" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-white hover:text-black transition-colors duration-300">
-              <FaTwitter size={21} />
+              <FaTwitter size={29} /> 
             </a>
             <a href="https://www.youtube.com/@zarlo_sa" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-white hover:text-black transition-colors duration-300">
-              <FaYoutube size={21} />
+              <FaYoutube size={29} /> 
             </a>
             <a href="https://www.facebook.com/people/Zarlo/61564831103325/?mibextid=ZbWKwl" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-white hover:text-black transition-colors duration-300">
-              <FaFacebookF size={20} />
+              <FaFacebookF size={29} /> 
             </a>
           </div>
           <div className="flex gap-4">
