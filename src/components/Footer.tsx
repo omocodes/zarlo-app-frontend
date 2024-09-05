@@ -23,12 +23,12 @@ const Footer = () => {
           <a href="#register-service" className="hover:text-black mb-2">Register as a Service Provider</a>
         </div>
 
-        {/* Support 24x7 */}
+        {/* Help */}
         <div className="flex flex-col">
           <h4 className="font-bold mb-4">Support</h4>
           <a href="https://wa.me/27827952060" target="_blank" rel="noopener noreferrer" className="hover:text-black mb-2">Help Center</a>
           <a href="#faq" className="hover:text-black mb-2">FAQ</a>
-          <a href="mailto:support@farenow.com" className="hover:text-black mb-2">Contact Us</a>
+          <a href="mailto:info@zarloapp.com" className="hover:text-black mb-2">Contact Us</a>
           <p className="mb-2">+27 82 795 2060</p>
           <p className="mb-2">info@zarloapp.com</p>
           <p className="mb-2">19 Ameshoff St, Braamfontein, Johannesburg, South Africa, 2017</p>
