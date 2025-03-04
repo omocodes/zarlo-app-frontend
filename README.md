@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Zarlo App Frontend  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Zarlo** is an on-demand beauty platform that connects clients with freelance beauticians for house-call services, consultations, and product purchases.  
 
-Currently, two official plugins are available:
+## 📌 About  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the **first version** of the **Zarlo App**, which initially functioned similarly to UberEats for beauty services.  
 
-## Expanding the ESLint configuration
+The latest version is live at **[www.zarloapp.com]**.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠 Tech Stack  
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend:** Next.js, React, Tailwind CSS, Radix UI  
+- **Backend:** Private repository  
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 📂 Setup & Installation  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/your-repo/zarlo-app-frontend.git
+   cd zarlo-app-frontend
+   ```
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+3. Start the development server:  
+   ```bash
+   npm run dev
+   ```
+
+## 📞 Support  
+
+For any issues, contact us at **support@zarloapp.com** or via WhatsApp at **082 795 2060**.  
